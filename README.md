@@ -2,9 +2,9 @@
 
 ## Summary
 
-Short summary on functionality and used technologies.
+This repo contains skeleton code and the folder structure that is used for useContext and useReducer in SPFx webpart. By doing this, you can implement global in your app which makes easy to update and grab states.
 
-[picture of the solution in action, if possible]
+You can refer to this article for detailed explanation of code used in this repo -> (https://www.sharepointpals.com/postskeleton-code-for-global-state-management-using-usecontext-usereducer-in-spfx-solution)
 
 ## Used SharePoint Framework Version
 
@@ -25,14 +25,13 @@ Short summary on functionality and used technologies.
 
 Solution|Author(s)
 --------|---------
-folder name | Author details (name, company, twitter alias with link)
+GlobalStateSkeleton | (Fazil, twitter: @AhamedFazilB)
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
-1.1|March 10, 2021|Update comment
-1.0|January 29, 2021|Initial release
+1.0|March 13, 2021|Initial release
 
 ## Disclaimer
 
@@ -50,20 +49,6 @@ Version|Date|Comments
 
 > Include any additional steps as needed.
 
-## Features
-
-Description of the extension that expands upon high-level summary above.
-
-This extension illustrates the following concepts:
-
-- topic 1
-- topic 2
-- topic 3
-
-> Notice that better pictures and documentation will increase the sample usage and the value you are providing for others. Thanks for your submissions advance.
-
-> Share your web part with others through Microsoft 365 Patterns and Practices program to get visibility and exposure. More details on the community, open-source projects and other activities from http://aka.ms/m365pnp.
-
 ## References
 
 - [Getting started with SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)
@@ -71,3 +56,5 @@ This extension illustrates the following concepts:
 - [Use Microsoft Graph in your solution](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/using-microsoft-graph-apis)
 - [Publish SharePoint Framework applications to the Marketplace](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/publish-to-marketplace-overview)
 - [Microsoft 365 Patterns and Practices](https://aka.ms/m365pnp) - Guidance, tooling, samples and open-source controls for your Microsoft 365 development
+- [React](https://reactjs.org/docs/hooks-reference.html#usecontext) - About useContext, useReducer
+- [Immer](https://immerjs.github.io/immer/docs/introduction) - For easy state management, useful for complex nested objects, arrays in your state
