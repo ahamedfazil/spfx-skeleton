@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "global-state-skeleton-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/globalStateSkeleton/GlobalStateSkeletonWebPart.js",
+          "manifest": "./src/webparts/globalStateSkeleton/GlobalStateSkeletonWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GlobalStateSkeletonWebPartStrings": "lib/webparts/globalStateSkeleton/loc/{locale}.js"
+  }
+}
