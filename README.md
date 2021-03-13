@@ -4,7 +4,7 @@
 
 This repo contains skeleton code and the folder structure that is used for useContext and useReducer in SPFx webpart. By doing this, you can implement global in your app which makes easy to update and grab states.
 
-You can refer to this article for detailed explanation of code used in this repo -> (https://www.sharepointpals.com/postskeleton-code-for-global-state-management-using-usecontext-usereducer-in-spfx-solution)
+You can refer to this article for detailed explanation of code used in this repo -> (https://www.sharepointpals.com/post/skeleton-code-for-global-state-management-using-usecontext-usereducer-in-spfx-solution)
 
 ## Used SharePoint Framework Version
 
